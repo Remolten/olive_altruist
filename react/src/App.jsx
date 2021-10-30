@@ -44,9 +44,7 @@ const App = () => {
           color="primary"
           variant="contained"
           onClick={() => {
-            window.open(
-              "https://secure.ministrysync.com/ministrysync/RegistrationManager/PublicRegistration.php?e=22255&NewReference=yes"
-            );
+            window.open("https://secure.ministrysync.com/ministrysync/event/home.php?e=22255");
           }}
         >
           Register for the Event!
