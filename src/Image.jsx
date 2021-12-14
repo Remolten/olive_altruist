@@ -2,7 +2,7 @@ import {Skeleton, styled} from '@mui/material';
 import {useState} from "react";
 
 const Img = styled('img')({
-  maxWidth: "min(1024px, 100vw)",
+  maxWidth: "min(1024px, 50vw)",
   maxHeight: "70vh"
 });
 
