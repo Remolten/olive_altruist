@@ -1,24 +1,24 @@
 {
   "name": "olive_altruist",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "^11.7.0",
-    "@emotion/styled": "^11.6.0",
-    "@mui/material": "^5.2.3",
-    "@mui/icons-material": "^5.2.1",
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.1",
+    "@mui/icons-material": "^5.5.1",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-router-dom": "^6.1.0",
+    "react-router-dom": "^6.2.2",
     "react-scripts": "^4.0.3",
-    "web-vitals": "^2.1.2"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "BUILD_PATH=docs react-scripts build",
+    "build": "BUILD_PATH=docs react-scripts build && echo friendsofsophia.org > docs/CNAME",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
