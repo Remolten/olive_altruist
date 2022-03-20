@@ -7,12 +7,16 @@ import Donate from './Donate';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#315DA4',
-      contrastText: 'white',
+      // main: '#315DA4',
+      // main: '#253229',
+      main: '#80978E',
+      contrastText: 'black',
     },
     secondary: {
-      main: '#A7D9F6',
-      contrastText: 'black'
+      // main: '#A7D9F6',
+      // main: '#80978E',
+      main: '#253229',
+      contrastText: 'white'
     }
   },
 });
