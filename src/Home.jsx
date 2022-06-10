@@ -2,10 +2,6 @@ import {Box, Button, Typography} from '@mui/material';
 import {useNavigate} from 'react-router-dom';
 import Image from './Image';
 
-const openEventRegistration = () => {
-  window.open('https://secure.fundeasy.com/ministrysync/event/?e=23047');
-};
-
 const Home = () => {
   const navigate = useNavigate();
 
@@ -16,12 +12,6 @@ const Home = () => {
         <Image
           src="sophia22_invite.png"
           alt="2022 Sophia Women's Center Vision Night Invitation Front"
-          onClick={openEventRegistration}
-        />
-        <Image
-          src="sophia22_invite2.png"
-          alt="2022 Sophia Women's Center Vision Night Invitation Back"
-          onClick={openEventRegistration}
         />
       </Box>
       <Typography variant="h3" fontFamily="Dancing Script" textAlign="center" mt={2} ml={2}>Welcome!</Typography>
@@ -31,14 +21,6 @@ const Home = () => {
         us!
       </Typography>
       <Box sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', m: 2}}>
-        <Button
-          sx={{mr: 1}}
-          color="primary"
-          variant="contained"
-          onClick={openEventRegistration}
-        >
-          Register for the Event!
-        </Button>
         <Button
           color="primary"
           variant="contained"
